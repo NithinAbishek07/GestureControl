@@ -70,7 +70,7 @@ https://github.com/shivam-kotwalia/gesture-control/archive/refs/heads/main.zip
 ## Step 2 — Install Dependencies
 
 ```bash
-python -m pip install -r requirements.txt
+python -m pip install --break-system-packages -r requirements.txt
 ```
 
 ## Step 3 — Download Hand Landmarker Model
@@ -88,6 +88,13 @@ python main.py
 ```
 
 ---
+
+# Close the application
+
+Press Ctrl+C in terminal to close the application
+
+---
+
 
 # 💻 macOS Permission Setup
 
